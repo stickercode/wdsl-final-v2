@@ -60,7 +60,7 @@ if (count($parts) >= 1) {
           <ul>
             <li><strong>France</strong>
               <ul>
-                <li><a href="/Blogs/FR_Paris.php">Paris</a></li>
+                <li><a href="<?php echo $base; ?>/Blogs/FR_Paris.php">Paris</a></li>
               </ul>
             </li>
             <li><strong>Italy</strong>

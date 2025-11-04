@@ -92,18 +92,12 @@
       </div>
 
       <div class="blog-card">
-        <img src="/WDSL/Assets/Pictures/palawan-tn.webp" alt="palawan" class="blog-image">
-        <a href="/WDSL/Blogs/PH_Palawan.php">
-          <h3 class="blog-title">Palawan: The Tropical Escape</h3>
+        <img src="https://media.istockphoto.com/id/944842098/photo/the-eiffel-tower-and-river-seine-at-twilight-in-paris.jpg?s=612x612&w=0&k=20&c=buJLTS3UMScYs0R57nIQuOBSQ1IqQHLeiSZPKfek6HM=" alt="paris france landscape" class="blog-image">
+        <a href="/WDSL/Blogs/FR_Paris.php">
+          <h3 class="blog-title">Paris: The City of Love</h3>
         </a>
       </div>
 
-      <div class="blog-card">
-        <img src="/WDSL/Assets/Pictures/palawan-tn.webp" alt="palawan" class="blog-image">
-        <a href="/WDSL/Blogs/PH_Palawan.php">
-          <h3 class="blog-title">Palawan: The Tropical Escape</h3>
-        </a>
-      </div>
 
     </div>
   </section>
