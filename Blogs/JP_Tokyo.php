@@ -33,7 +33,7 @@
       <h2 class="blog-title">JAPAN: THE LAND OF G.O.A.T</h2>
 
       <div class="main-image">
-        <img src="../images/Japan.png" alt="Japan landscape">
+        <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Japan landscape">
       </div>
 
       <p>

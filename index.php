@@ -90,14 +90,15 @@
           <h3 class="blog-title">Ilocos Norte</h3>
         </a>
       </div>
- <div class="blog-card">
+
+      <div class="blog-card">
         <img src="/WDSL/Assets/Pictures/palawan-tn.webp" alt="palawan" class="blog-image">
         <a href="/WDSL/Blogs/PH_Palawan.php">
           <h3 class="blog-title">Palawan: The Tropical Escape</h3>
         </a>
       </div>
 
-       <div class="blog-card">
+      <div class="blog-card">
         <img src="/WDSL/Assets/Pictures/palawan-tn.webp" alt="palawan" class="blog-image">
         <a href="/WDSL/Blogs/PH_Palawan.php">
           <h3 class="blog-title">Palawan: The Tropical Escape</h3>

@@ -31,7 +31,7 @@
       <h2 class="blog-title">ABUJA: YOUR GATEWAY TO NIGERIA'S MODERN WONDERS & RICH CULTURE</h2>
 
       <div class="main-image">
-        <img src="../Images/Nigeria.png" alt="Abuja landscape">
+        <img src="https://images.unsplash.com/photo-1719984102595-f4fe00867609?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=435" alt="Abuja landscape">
       </div>
 
       <p>
@@ -53,13 +53,22 @@
       </ul>
 
       <h3 id="architecture"><strong>Architectural Wonders & Cultural Hubs</strong></h3>
+        
       <ul>
         <li><strong>National Mosque & National Christian Centre:</strong> These two monumental structures face each other across the skyline, 
             symbolizing Nigeria’s peaceful coexistence and unity.</li>
+            <img class="blog-image" src="https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/abujanationalmosque-1-816x611.jpg" alt="national mosque in abuja, nigeria">
+          
+
         <li><strong>Arts & Crafts Village:</strong> A colorful open market filled with handmade jewelry, wooden carvings, and woven fabrics. 
             A perfect stop for souvenir shopping.</li>
+            <img class="blog-image" src="https://cimages.timbu.com/guides/2020/02/Abuja-Arts-1024x790.jpg" alt="arts and crafts village">
+          
+        
         <li><strong>Nike Art Gallery:</strong> One of Africa’s largest private art galleries, featuring stunning Nigerian paintings, 
             sculptures, and textiles — an absolute must for art lovers.</li>
+            <img class="blog-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg/1024px-Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg" alt="nike art gallery">
+            
       </ul>
 
       <h3 id="escapes"><strong>Natural Escapes Beyond the City</strong></h3>
@@ -69,10 +78,11 @@
         Visit during the rainy season to witness its full power, or during the dry season for calmer views and picnics by the water.
       </p>
 
+      
       <div class="gallery">
-        <img src="../Images/Abuja1.jpg" alt="Zuma Rock">
-        <img src="../Images/Abuja2.jpg" alt="Aso Rock">
-        <img src="../Images/Abuja3.jpg" alt="Gurara Waterfalls">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Zuma_Rock.jpg" alt="Zuma Rock">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aso_Rock_Nigeria.jpg/960px-Aso_Rock_Nigeria.jpg?20190924211459" alt="Aso Rock">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/GURARA_WATERFALLS.jpg/1024px-GURARA_WATERFALLS.jpg" alt="Gurara Waterfalls">
       </div>
 
       <h3 id="tips"><strong>Travel Tips</strong></h3>

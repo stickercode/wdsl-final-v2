@@ -81,14 +81,3 @@
         </div>
       </div>
     </div>
-
-    <!-- 🌎 EUROPE -->
-    <div class="continent">
-      <h3>🌎 Europe</h3>
-
-      <div class="country">
-        <h4>🇫🇷 France</h4>
-        <div class="blog-list">
-          <div class="blog-card">
-            <a href="/WDSL/Blogs/EU_Paris.php">
-              <h3 class="blog-title">Paris: Cit

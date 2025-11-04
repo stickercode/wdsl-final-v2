@@ -149,8 +149,8 @@ a {
 }
 
 .gallery img {
-  width: 270px;
-  height: 180px;
+  width: 370px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -210,4 +210,10 @@ a {
   background-color: var(--warm-red);
   box-shadow: 0 4px 10px rgba(196, 75, 75, 0.4);
   transform: translateY(-2px);
+}
+
+ul .blog-image, .blog-image{
+  width: 80%;
+  height: 280px;
+  border-radius: 12px;
 }
