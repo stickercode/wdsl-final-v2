@@ -1,0 +1,337 @@
+/* === Cecelia Immergreen Color Palette === */
+:root {
+  --forest-green: #2E4E36;
+  --light-cream: #FAF8F3;
+  --coffee-brown: #8C6A4F;
+  --sky-blue: #7FA8A2;
+  --warm-red: #C44B4B;
+  --black: #0B0B0B;
+  --white: #FFFFFF;
+}
+
+/* === GENERAL STYLES === */
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  background-color: var(--light-cream);
+  color: var(--forest-green);
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--forest-green);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === HEADER & NAVBAR === */
+#navbar {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  overflow: visible; /* make sure dropdown isn’t clipped */
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: var(--white); 
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Adds a soft glow for visibility */
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.site-title:hover {
+  text-shadow: 0 0 10px var(--coffee-brown), 0 0 20px var(--sky-blue);
+  transform: scale(1.05);
+}
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item a {
+  color: var(--white);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.menu-item a:hover {
+  color: var(--sky-blue);
+  text-shadow: 0 0 6px var(--sky-blue);
+}
+
+/* === MEGA DROPDOWN MENU === */
+.mega-dropdown {
+  position: static; 
+}
+
+.mega-menu {
+  position: fixed; 
+  top: 70px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--black);
+  color: var(--white);
+  width: 900px;
+  display: none;
+  padding: 30px 40px;
+  border-radius: 8px;
+  z-index: 10000; 
+  justify-content: space-between;
+  gap: 60px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  opacity: 1;
+
+ 
+  max-height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sky-blue) var(--black);
+}
+
+/* Keep dropdown visible on hover */
+.mega-dropdown:hover .mega-menu,
+.mega-dropdown:focus-within .mega-menu,
+.mega-menu:hover {
+  display: flex;
+}
+
+
+/* === SLIDESHOW SECTION (Fixed Overlapping & Responsive) === */
+.slides {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0; 
+}
+
+.slide {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Fade animation */
+  opacity: 0;
+  animation: fade 25s infinite;
+}
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 5s; }
+.slide:nth-child(3) { animation-delay: 10s; }
+.slide:nth-child(4) { animation-delay: 15s; }
+.slide:nth-child(5) { animation-delay: 20s; }
+
+@keyframes fade {
+  0%, 16.66% { opacity: 1; }
+  20%, 100% { opacity: 0; }
+}
+
+/* === SECTIONS === */
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0 20px;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  color: var(--coffee-brown);
+}
+
+/* === FEATURED BLOG CARDS === */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px auto;
+}
+
+.blog-card {
+  width: 350px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-title {
+  font-size: 18px;
+  color: var(--forest-green);
+  padding: 10px 0 20px;
+}
+
+/* === CONTACT GRID === */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 25px;
+  width: 85%;
+  margin: 0 auto 60px;
+  justify-items: center;
+}
+
+.contact-card {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--forest-green);
+}
+/* === HERO BANNER SECTION (with overlay text and slideshow) === */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* Slideshow container */
+.slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Individual slide images */
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(60%); /* Darkens background for text contrast */
+  opacity: 0;
+  animation: fade 25s infinite;
+}
+
+/* Slide fade animation timing */
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 5s; }
+.slide:nth-child(3) { animation-delay: 10s; }
+.slide:nth-child(4) { animation-delay: 15s; }
+.slide:nth-child(5) { animation-delay: 20s; }
+
+@keyframes fade {
+  0%, 16.66% { opacity: 1; }
+  20%, 100% { opacity: 0; }
+}
+
+/* Overlay gradient (optional) */
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  z-index: 1;
+}
+
+/* Overlay text */
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--light-cream);
+  z-index: 2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.banner-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+.banner-tagline {
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+/* === Responsive adjustments === */
+@media (max-width: 768px) {
+  .banner {
+    height: 320px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-tagline {
+    font-size: 1rem;
+  }
+}
+
+
+footer {
+      text-align: center;
+      background-color: var(--black);
+      color: var(--white);
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
