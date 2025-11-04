@@ -57,19 +57,24 @@
       <ul>
         <li><strong>National Mosque & National Christian Centre:</strong> These two monumental structures face each other across the skyline, 
             symbolizing Nigeria’s peaceful coexistence and unity.</li>
-            <img class="blog-image" src="https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/abujanationalmosque-1-816x611.jpg" alt="national mosque in abuja, nigeria">
           
 
         <li><strong>Arts & Crafts Village:</strong> A colorful open market filled with handmade jewelry, wooden carvings, and woven fabrics. 
             A perfect stop for souvenir shopping.</li>
-            <img class="blog-image" src="https://cimages.timbu.com/guides/2020/02/Abuja-Arts-1024x790.jpg" alt="arts and crafts village">
+            
           
         
         <li><strong>Nike Art Gallery:</strong> One of Africa’s largest private art galleries, featuring stunning Nigerian paintings, 
             sculptures, and textiles — an absolute must for art lovers.</li>
-            <img class="blog-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg/1024px-Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg" alt="nike art gallery">
+            
             
       </ul>
+
+      <div class="gallery">
+      <img class="blog-image" src="https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/abujanationalmosque-1-816x611.jpg" alt="national mosque in abuja, nigeria">
+      <img class="blog-image" src="https://cimages.timbu.com/guides/2020/02/Abuja-Arts-1024x790.jpg" alt="arts and crafts village">
+      <img class="blog-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg/1024px-Secretary_Blinken_Attends_Event_at_Nike_Art_Gallery_%2853485611820%29.jpg" alt="nike art gallery">
+      </div>
 
       <h3 id="escapes"><strong>Natural Escapes Beyond the City</strong></h3>
       <p>

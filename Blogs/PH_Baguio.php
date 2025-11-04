@@ -32,7 +32,7 @@
       <h2 class="blog-title">BAGUIO: SUMMER CAPITAL OF THE PHILIPPINES</h2>
 
       <div class="main-image">
-        <img src="../Images/Baguio.png" alt="Baguio landscape">
+        <img src="https://images.unsplash.com/photo-1666029584705-6c1d16984c22?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Baguio landscape">
       </div>
 
       <p>
@@ -90,9 +90,9 @@
       </ul>
 
       <div class="gallery">
-        <img src="../Images/Baguio1.jpg" alt="Mines View Park">
-        <img src="../Images/Baguio2.jpg" alt="Session Road at night">
-        <img src="../Images/Baguio3.jpg" alt="Burnham Park boats">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/fa/7c/bc/mines-view-park.jpg?w=1000&h=-1&s=1" alt="Mines View Park">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/60/d3/03/session-road-at-night.jpg" alt="Session Road at night">
+        <img src="https://besaphil.com/wp-content/uploads/2019/12/Burnham-park01.jpg" alt="Burnham Park boats">
       </div>
 
       <p>
